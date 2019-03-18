@@ -12,6 +12,8 @@
 		38DB9B3C21A382AF0077C144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DB9B3A21A382AF0077C144 /* Main.storyboard */; };
 		38DB9B3E21A382B00077C144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DB9B3D21A382B00077C144 /* Assets.xcassets */; };
 		38DB9B4121A382B00077C144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DB9B3F21A382B00077C144 /* LaunchScreen.storyboard */; };
+		38DB9B4921A394BE0077C144 /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB9B4821A394BE0077C144 /* BlackJackViewController.swift */; };
+		38DB9B5121A4DD8A0077C144 /* BlackJackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB9B5021A4DD8A0077C144 /* BlackJackData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		38DB9B3D21A382B00077C144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38DB9B4021A382B00077C144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38DB9B4221A382B00077C144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DB9B4821A394BE0077C144 /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		38DB9B5021A4DD8A0077C144 /* BlackJackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				38DB9B3621A382AF0077C144 /* AppDelegate.swift */,
 				38DB9B3821A382AF0077C144 /* ViewController.swift */,
+				38DB9B4821A394BE0077C144 /* BlackJackViewController.swift */,
+				38DB9B5021A4DD8A0077C144 /* BlackJackData.swift */,
 				38DB9B3A21A382AF0077C144 /* Main.storyboard */,
 				38DB9B3D21A382B00077C144 /* Assets.xcassets */,
 				38DB9B3F21A382B00077C144 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DB9B4921A394BE0077C144 /* BlackJackViewController.swift in Sources */,
 				38DB9B3921A382AF0077C144 /* ViewController.swift in Sources */,
+				38DB9B5121A4DD8A0077C144 /* BlackJackData.swift in Sources */,
 				38DB9B3721A382AF0077C144 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
